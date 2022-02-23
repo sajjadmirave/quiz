@@ -18,7 +18,43 @@
     <title>simple quiz</title>
   </head>
   <body>
+    <div class="box-area">
+      <!-- title tex -->
+      <div class="title text-white "><h2 class="text-center">Welcome</h2></div>
+      <br>
+      <!-- create the question box -->
+      <div class="question">
+        <h3 class="text-info">Which Fruits is Blue?</h3>
+      </div>
 
+      <!--  selection button -->
+      <div class="selection-button-area text-white">
+        <div class="selection-box">
+          <input type="radio" class="form-check-input" name="select" value="Banana" id="" />
+          <label for="select" class="form-label"><h5>Banana</h6></label>
+        </div>
+        <!-- ****** -->
+        <div class="selection-box">
+          <input type="radio" class="form-check-input" value="Apple" name="select" id="" />
+          <label for="select" class="form-label"><h5>Apple</h6></label>
+        </div>
+        <!-- ****** -->
+        <div class="selection-box">
+          <input type="radio" class="form-check-input" value="Blueberry" name="select" id="" />
+          <label for="select" class="form-label"><h5>Blueberry</h6></label>
+        </div>
+        <!--******  -->
+        <div class="selection-box">
+          <input type="radio" class="form-check-input" name="select" value="Melon" id="" />
+          <label for="select" class="form-label"><h5>Melon</h5></label>
+        </div>
+      </div>
+
+      <!-- create submit button -->
+      <div class="submit-button">
+        <button class="btn btn-success px-4 py-2">submit</button>
+      </div>
+    </div>
 
     <!-- ! link script -->
     <script src="./js/script.js"></script>
